@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+body, html, * {
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+
+.flex{
+	display: flex;
+}
+
+.flex-center{
+	align-items: center;
+	justify-content: center;
+}
+
+.full-alto{
+	height: 100vh!important;
+}
+
+.full-ancho{
+	width: 100%!important;
+}
+
+.flex-horizontal{
+	flex-direction: row;
+}
+
+.flex-vertical{
+	flex-direction: column;
+}
+
+

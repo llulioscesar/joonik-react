@@ -1,0 +1,38 @@
+@import '../Correo/estilo.css';
+
+.btn-atras{
+	position: fixed;
+	top: 20px;
+	left: 16px;
+	width: 6px;
+	height: 12px;
+	opacity: 1;
+	background: transparent;
+	border: none!important;
+	outline: none!important;
+}
+
+.correo-contenedor > span#correo {
+	font: normal normal normal 16px/19px 'Montserrat', sans-serif;
+	letter-spacing: 0px;
+	color: #707070;
+	margin-bottom: 42px;
+}
+
+.correo-contenedor > label#sesion {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	max-width: 315px;
+}
+
+.correo-contenedor > label#sesion > input {
+	margin-right: 16px;
+}
+
+.correo-contenedor > label#sesion > span {
+	content: '';
+	width: 153px;
+	height: 7px;
+	background: #CECECE;
+}
